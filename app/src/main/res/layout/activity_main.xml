@@ -1,0 +1,497 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="@string/out"
+            android:id="@+id/textViewOut"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="@string/off"
+            android:id="@+id/textViewOff"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="@string/on"
+            android:id="@+id/textViewOn"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="@string/in"
+            android:id="@+id/textViewIn"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="@string/flight"
+            android:id="@+id/textViewFlight"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="@string/block"
+            android:id="@+id/textViewBlock"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg1TimeOut"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg1TimeOff"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg1TimeOn"/>
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg1TimeIn"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:id="@+id/textViewLeg1FlightTime"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:id="@+id/textViewLeg1BlockTime"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg2TimeOut"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg2TimeOff"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg2TimeOn"/>
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg2TimeIn"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:id="@+id/textViewLeg2FlightTime"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:id="@+id/textViewLeg2BlockTime"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg3TimeOut"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg3TimeOff"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg3TimeOn"/>
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg3TimeIn"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:id="@+id/textViewLeg3FlightTime"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:id="@+id/textViewLeg3BlockTime"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg4TimeOut"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg4TimeOff"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg4TimeOn"/>
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg4TimeIn"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:id="@+id/textViewLeg4FlightTime"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:id="@+id/textViewLeg4BlockTime"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg5TimeOut"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg5TimeOff"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg5TimeOn"/>
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="phone"
+            android:digits="0,1,2,3,4,5,6,7,8,9,:"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:imeOptions="actionNext"
+            android:selectAllOnFocus="true"
+            android:id="@+id/editTextLeg5TimeIn"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:id="@+id/textViewLeg5FlightTime"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/dummy"
+            android:id="@+id/textViewLeg5BlockTime"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/total_flight_time"
+            android:id="@+id/textViewTotalFlightTimeLabel"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/dummy"
+            android:id="@+id/textViewTotalFlightTime"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/total_block_time"
+            android:id="@+id/textViewTotalBlockTimeLabel"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/dummy"
+            android:id="@+id/textViewTotalBlockTime"/>
+    </LinearLayout>
+
+</LinearLayout>
