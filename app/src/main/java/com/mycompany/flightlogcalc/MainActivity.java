@@ -29,7 +29,8 @@ public class MainActivity extends ActionBarActivity {
     EditText edtTxtOutTime5, edtTxtOffTime5, edtTxtOnTime5, edtTxtInTime5;
     TextView txtViewFlightTime5, txtViewBlockTime5;
     TextView txtViewTotalFlightTime, txtViewTotalBlockTime;
-
+    
+// So no calculations are done until a pair is complete
     int out1 = 0, off1 = 0, on1 = 0, in1 = 0;
     int out2 = 0, off2 = 0, on2 = 0, in2 = 0;
     int out3 = 0, off3 = 0, on3 = 0, in3 = 0;
